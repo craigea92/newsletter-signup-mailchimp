@@ -39,6 +39,13 @@ app.post("/", function(req, res){
   }
   
   const request = https.request(url, options, function(response){
+    
+    if (response.statusCode === 200) {
+      res.sendFile(__dirname + "/success.html");
+    } else {
+      res.send(__dirname + "/failure.html");
+    }
+    
     response.on("data", function(data){
       console.log(JSON.parse(data));
     })
@@ -47,6 +54,10 @@ app.post("/", function(req, res){
   request.write(jsonData);
   request.end();
 
+})
+
+app.post("/failure", function(req, res){
+  res.redirect("/")
 })
 
 app.listen(3000, function(){
