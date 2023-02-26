@@ -16,7 +16,7 @@ Once a user inputs their First Name, Last Name and Email their details are then 
 ## How to Install and Run
 
 ```
-git clone https://github.com/craigea92/weather-api.git
+git clone https://github.com/craigea92/newsletter-signup-mailchimp.git
 npm install
 node app.js
 ```
