@@ -1,9 +1,12 @@
 # Newsletter Signup - Mailchimp API
 
-## Description
-I created a newsletter sign-up page using HTML and Bootstrap. Then using Node.js and npm I created a backend file (app.js) to hold the javascript connecting to the MailChimp API. Using .gitignore I have hidden the API key.
+## Project Description
 
-Once a user inputs their First Name, Last Name and Email their details are then saved in MailChimp.
+In this project, I crafted a newsletter sign-up page that utilizes an API to add users to a Mailchimp list. The interface was constructed with HTML and Bootstrap, while the backend was built with node, express, javascript, and a Mailchimp API. To successfully add a contact, I employed Postman to gain a better understanding of the information required to pass to Mailchimp.
+
+One of the primary challenges I encountered in this project was realizing the API key should not be casually shared. After conducting research on Stack Overflow and reviewing some useful documentation, I discovered that it is best to use a distinct file to hold the API key and then use .gitignore to ensure that the file is not shared on Git. This lesson is one that I will not soon forget and one that every developer should learn.
+
+While I do not envision this project expanding at the moment, the tools and code can be repurposed in the future for a website that requires a simple sign-up form. I do intend to work on additional API projects in the future to strengthen my comprehension and knowledge of APIs.
 
 ## Tech Stack
 <a href="https://www.javascript.com/"> <img src="https://icongr.am/devicon/javascript-original.svg?size=40&color=currentColor" alt="javascript"/> </a>
