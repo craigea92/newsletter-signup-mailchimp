@@ -20,6 +20,7 @@ While I do not envision this project expanding at the moment, the tools and code
 
 ```
 git clone https://github.com/craigea92/newsletter-signup-mailchimp.git
+cd newsletter-signup-mailchimp
 npm install
 node app.js
 ```
@@ -28,3 +29,6 @@ node app.js
 <img width="860" alt="image" src="https://user-images.githubusercontent.com/82875984/221412344-7f0bf2d6-c1de-4acb-994f-6e764b983297.png">
 <img width="860" alt="image" src="https://user-images.githubusercontent.com/82875984/221412369-ca8ac718-08f2-4c86-bf8d-b5bf767e7c99.png">
 <img width="860" alt="image" src="https://user-images.githubusercontent.com/82875984/221412408-2df87b7e-4a08-4698-8a52-88dc99b029b5.png">
+
+## What is Node.js?
+Node.js is a back-end JavaScript runtime environment. Node allows developers to write JavaScript code that runs directly in a computer process itself instead of in a browser. Node can, therefore, be used to write server-side applications with access to the operating system, file system, and everything else required to build fully-functional applications.
